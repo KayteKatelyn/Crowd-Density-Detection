@@ -24,7 +24,7 @@ This project is based on a Deep learning-based crowd density estimation system u
 
 #### 📁**GET THE DATA** <br>
 
-#### [<kbd>ShanghaiTech Dataset</kbd>](https://www.kaggle.com/datasets/tthien/shanghaitech) <br>
+#### [<kbd>ShanghaiTech [Part A and Part B] Dataset</kbd>](https://www.kaggle.com/datasets/tthien/shanghaitech) <br> 
 #### [<kbd>Mall Dataset</kbd>](https://www.kaggle.com/datasets/chaozhuang/mall-dataset)
 
 ### Data Preprocessing
@@ -88,7 +88,17 @@ This project is based on a Deep learning-based crowd density estimation system u
 **Safety Threshold-based Categorization:**
 
 <img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/2ec80273-cdff-4349-a17c-0d87546c74b2" />
-<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/21da77ea-47bf-432a-926a-1e9fdd47c4b2" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/21da77ea-47bf-432a-926a-1e9fdd47c4b2" /><br><br>
+
+**Comparative Analysis of Crowd Density:**
+
+PART A:
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/424a98c0-cada-437f-b746-5220bbe33615" /><br>
+
+PART B:
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/32439bf6-9da3-45df-897b-58c81b6cb0a1" /><br><br>
 
 > [!NOTE]
 > ### **Data Access: Due to licensing and privacy considerations, datasets are not included in this repository**
