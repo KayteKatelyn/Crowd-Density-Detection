@@ -1,15 +1,13 @@
-##  👥 Crowd-Density-Detection
+# 👥 Crowd-Density-Detection
 This project is based on a Deep learning-based crowd density estimation system using CrowdNet CNN architecture to analyze crowd images, generate density maps via Gaussian filter transformation, and classify public spaces as safe or unsafe based on predicted crowd counts with safety threshold categorization.
 
-### 🎯 Key Features
-___
+## Key Features
 - Implements CrowdNet CNN architecture for spatial feature extraction from crowd images.
 - Analyzes two image datasets for crowd density estimation: **ShanghaiTech Dataset (1198 images) and the Mall Dataset (2000 images)**
 - Generates density maps using Gaussian Filter Transformation.
 - Safe vs. Unsafe crowd levels based on threshold analysis
 
-### ⚙️ Tech Stack
-___
+## Tech Stack
 - **Python** - Primary programming language
 - **TensorFlow/Keras** - Deep learning framework for CNN implementation
 - **OpenCV** - Image Processing and Transformation
@@ -18,61 +16,54 @@ ___
 - **Matplotlib / Seaborn** - Data visualization
 - **scikit-image** - Gaussian filter transformation for density maps
 
-### 💪 How it Works?
-___
-#### Data Collection
+## How it Works?
+### Data Collection
 - Utilized the ShangahiTech Image Dataset and the Mall Image Dataset containing crowd scenes.
 - Images captured different crowd densities, lighting conditions, and environments.
 - The dataset includes both safe and unsafe crowd density scenarios. <br>
 
-📁Get the Data <br>
+#### 📁**GET THE DATA** <br>
 
-[<kbd>ShanghaiTech Dataset</kbd>](https://www.kaggle.com/datasets/tthien/shanghaitech)
-[<kbd>Mall Dataset</kbd>](https://www.kaggle.com/datasets/chaozhuang/mall-dataset)
+#### [<kbd>ShanghaiTech Dataset</kbd>](https://www.kaggle.com/datasets/tthien/shanghaitech) <br>
+#### [<kbd>Mall Dataset</kbd>](https://www.kaggle.com/datasets/chaozhuang/mall-dataset)
 
-#### Data Preprocessing
+### Data Preprocessing
 - Resized and normalized crowd images for consistent input dimensions.
 - Applied Gaussian Filter Transformation to generate density maps from crowd images.
 
-#### Model Comparison and Training
+### Model Comparison and Training
 - Implemented CrowdNet CNN architecture designed for crowd analysis.
-- Pooling layers reduce dimensionality while preserving critical spatial information.
+- Pooling layers reduce dimensionality while preserving critical spatial information.<br>
 
-#### Crowd Density Prediction
+**Model Architecture**
+<p align="center">
+  <img width="800" height="900" alt="image" src="https://github.com/user-attachments/assets/478c7fb7-d300-403f-9c48-47f5a52a439b" />
+</p>
+
+### Crowd Density Prediction
 - Model processes input crowd images through CrowdNet architecture
 - Generates predicted crowd counts and density estimates
 - Density maps visualize spatial distribution of people in the scene
 - Outputs numerical crowd count predictions for each image
 
-#### Safety Classification
+### Safety Classification
 - Established safety threshold based on crowd density analysis.
 
-#### Performance Evaluation
+### Performance Evaluation
 - Tested model on separate test dataset to evaluate generalization.
 
-#### Visualization
+### Visualization
 - Scatter plots: Actual vs. Predicted crowd counts showing model accuracy.
 - Density map visualizations highlighting crowd concentration areas.
-____
 
-#### Design Framework
+## Design Framework
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/366e8ef0-fe6b-41f1-9731-c30b779d5764" />
+<p align="center">
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/366e8ef0-fe6b-41f1-9731-c30b779d5764" />
+</p>
 
-____
-### 🏆Key Findings
-CrowdNet CNN successfully estimates crowd density 
-____
-
-### Applications
-- Real-time monitoring of public events (concerts, sports, festivals)
-- Smart city surveillance for crowd management
-- Emergency evacuation planning and response
-- Public transportation safety monitoring
-____
-
-### <ins>Screenshots</ins>
-**Density Map Generation**
+## Screenshots
+**Density Map Generation:**
 
 <img width="270" height="150" alt="image" src="https://github.com/user-attachments/assets/542117ea-2e06-43d9-90ef-039db82255fc" />
 <img width="270" height="150" alt="image" src="https://github.com/user-attachments/assets/4611afdb-b3e7-4465-aeb9-2dbb1a975668" /><br><br>
@@ -92,7 +83,12 @@ ____
 <img width="270" height="150" alt="image" src="https://github.com/user-attachments/assets/eccbf213-f52b-4ddc-a61a-971008aa38a7" /><br><br>
 
 <img width="270" height="150" alt="image" src="https://github.com/user-attachments/assets/1e61d1ce-8591-4faa-8828-21b7617b6a6e" />
-<img width="270" height="150" alt="image" src="https://github.com/user-attachments/assets/cfb37c62-7b9b-4442-98ae-2bac5fc1b0b0" />
+<img width="270" height="150" alt="image" src="https://github.com/user-attachments/assets/cfb37c62-7b9b-4442-98ae-2bac5fc1b0b0" /><br><br>
 
+**Safety Threshold-based Categorization:**
 
-#### **"Data Access: Due to licensing and privacy considerations, datasets are not included in this repository."**
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/2ec80273-cdff-4349-a17c-0d87546c74b2" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/21da77ea-47bf-432a-926a-1e9fdd47c4b2" />
+
+> [!NOTE]
+> ### **Data Access: Due to licensing and privacy considerations, datasets are not included in this repository**
