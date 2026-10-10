@@ -37,7 +37,7 @@ This project is based on a Deep learning-based crowd density estimation system u
 
 **Model Architecture**
 <p align="center">
-  <img width="800" height="900" alt="image" src="https://github.com/user-attachments/assets/478c7fb7-d300-403f-9c48-47f5a52a439b" />
+  <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/478c7fb7-d300-403f-9c48-47f5a52a439b" />
 </p>
 
 ### Crowd Density Prediction
